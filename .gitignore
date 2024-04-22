@@ -1,0 +1,50 @@
+# permet le d’exclure les fichiers non nécessaire de l’Ide Eclipse
+.classpath
+.project
+.settings/
+conf/secrets.ini
+**/*.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+# permet le d’exclure les fichiers non nécessaire de l’Ide Intellij
+.idea/
+*.iml
+*.iws
+workspace.xml
+# permet le d’exclure les fichiers non nécessaire de  Maven
+log/
+target/
+# permet le d’exclure les fichiers class (fichier binaire)
+*.class
+*.mp4
+*.mp3
+*.out
+*.bin
+*.rttm
+
+**/__pycache__
+
+# quelques extensions inutiles
+*.png
+*.pdf
+*.doc
+*.csv
+*.html
+*.pptx
+*.xlsx
+*.log
+*.docx
+*.pkl
+*.wav
+*.mp4
+*.pkl
+
+#Dev Notebooks
+dev_tests.ipynb
+
+#env and secrets
+secrets.json
+secret.json
+.venv/
+model/
+nohup.out
+
